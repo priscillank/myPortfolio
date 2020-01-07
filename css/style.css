@@ -1,3 +1,258 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+html{
+  font-size: 10px;
+}
+
+.container {
+  width: 107rem;
+}
+
+.intro {
+  width: 100%;
+  text-align: center;
+}
+
+
+nav {
+  width: 100%;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-fixed {
+  position: fixed;
+  margin-top: 1rem;
+}
+
+nav ul {
+  width: 107rem;
+  height:6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+nav ul li a {
+  font-family: "Playfair Display";
+  font-variant: small-caps;
+  letter-spacing: 5%;
+  font-size: 1.8rem;
+  color: #2F3B3E;
+  text-decoration: none;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li:last-child {
+  padding-left: 3.9rem;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: #2F3B3E;
+}
+
+nav a:hover {
+  text-decoration:none;
+  color: #E8A153;
+}
+
+a:active {
+  text-decoration: none;
+  color: #E8A153;
+}
+
+
+header {
+color: #425458;
+text-align: center;
+}
+
+
+.container-hero {
+    margin-top: 5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.home-hero{
+    background-color: #F0E6E2;
+}
+
+.priscillank {
+  height: 42.2rem;
+  padding-top: 8.5rem;
+}
+
+
+.myName {
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  color: #425458;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 14rem;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: .02rem;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  letter-spacing: .02rem;
+}
+
+h5 {
+  font-family: "Playfair Display";
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+
+}
+
+.logo {
+  height:4rem;
+}
+
+main {
+  padding-top: 6rem;
+  padding-bottom: 15rem;
+  background-color: white;
+  width:107rem;
+  margin: auto;
+  text-align: center;
+}
+
+
+/* this is for the project tiles */
+.title {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(255,255,255, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #2F3B3E;
+  margin-bottom: 0.5rem;
+}
+
+.content-details p{
+  color: #2F3B3E;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+
+footer{
+  background-color: #C66D44;
+  color:white;
+  text-align: center;
+}
+
+.footer-container {
+  padding-top: 5rem;
+  width:100%;
+  }
+
+.sm-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer ul {
+  margin-top: 5rem;
+  margin-bottom: 17.4rem;
+  display: flex;
+  justify-content: space-between;
+  width: 24rem;
+}
+
+
+
+
+/*PROJECT PAGES STYLING*/
+.project-hero-image {
+
+}
