@@ -280,10 +280,15 @@ padding-top: 5rem;
 
 /* styling for desktop version */
 
-.divider-desktop {
-  display: none;
+.img-dividers {
+  background-image: url('/images/project/userflow-divider-desktop.png');
+  background-size:cover;
+  height: 17.3rem;
 }
 
+.divider {
+  height:17.3rem;
+}
 /* Problem + Solution Section */
 .project-main h3 {
   color: #2F3B3E;
@@ -310,7 +315,12 @@ padding-top: 5rem;
   padding-bottom: 5rem;
   border-bottom: 1px solid #F0E6E2;
 }
-
+/* For sections that do not need a bottom-border */
+.section-wrap-none {
+  text-align: left;
+  padding-top: 3.2rem;
+  padding-bottom: 5rem;
+}
 
 
 .section1 p {
