@@ -280,10 +280,11 @@ padding-top: 5rem;
 
 /* styling for desktop version */
 
-.divider-desktop {
-  display: none;
-}
 
+
+.divider {
+  height:17.3rem;
+}
 /* Problem + Solution Section */
 .project-main h3 {
   color: #2F3B3E;
