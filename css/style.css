@@ -6,8 +6,11 @@ html{
   font-size: 10px;
 }
 
+
+
 .container {
-  width: 107rem;
+  width: 33.3rem;
+  margin: auto;
 }
 
 .intro {
@@ -15,6 +18,114 @@ html{
   text-align: center;
 }
 
+/* padding to the left to center the hero image a bit*/
+.priscillank {
+  height: 25rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+
+.hero-container{
+  margin: auto;
+  margin-top: 5rem;
+  background-color: #F0E6E2;
+  text-align: center;
+}
+
+.projects-container {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+header {
+color: #425458;
+}
+
+.myName {
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  color: #425458;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 14rem;
+  width: 29.3rem;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: .02rem;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  letter-spacing: .04rem;
+}
+h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  letter-spacing: .02rem;
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+h5 {
+  font-family: "Playfair Display";
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+
+}
+
+h6 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  letter-spacing: .02rem;
+  font-variant: small-caps;
+}
+
+
+figcaption {
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.logo {
+  height:4rem;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+}
 
 nav {
   width: 100%;
@@ -22,15 +133,14 @@ nav {
   display:flex;
   justify-content: center;
   text-align: center;
-}
-
-.nav-fixed {
-  position: fixed;
-  margin-top: 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 4;
 }
 
 nav ul {
-  width: 107rem;
+  width: 33.3rem;
   height:6.5rem;
   display: flex;
   align-items: center;
@@ -55,119 +165,343 @@ nav ul li:last-child {
   padding-left: 3.9rem;
 }
 
+a {
+text-decoration: none;
+}
 nav a:visited {
-  text-decoration: none;
   color: #2F3B3E;
 }
 
 nav a:hover {
-  text-decoration:none;
   color: #E8A153;
 }
 
-a:active {
+nav a:active {
+  color: #E8A153;
+}
+
+figure {
+  padding-bottom: 3.2rem;
+}
+
+/* Switching up project images for mobile */
+
+.content-image{
+  display: none;
+}
+
+.content-image-mobile {
+  width: 100%;
+}
+
+.content-details {
+  width: 23rem;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  color: #2F3B3E;
+}
+
+.content-text {
+  padding-top: 1rem;
+}
+
+/* CASE STUDY/PROJECT PAGE STYLING */
+
+/* Project Information header */
+.item-1 {
+padding-bottom: 3.2rem;
+}
+
+.project-hero {
+padding-bottom: 3.2rem;
+padding-top: 5rem;
+}
+.project-grid {
+  margin-bottom: 5rem;
+}
+
+.item-2 p {
+  margin-bottom: 1.8rem;
+}
+
+/* links with arrows */
+
+.project-links  {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: .01rem;
   text-decoration: none;
   color: #E8A153;
 }
 
-
-header {
-color: #425458;
-text-align: center;
+.content-thumbnail {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+  margin-bottom: 6rem;
 }
 
 
-.container-hero {
-    margin-top: 5rem;
-    text-align: center;
-    width: 100%;
+
+/* Case Study roles, tools, duration, deliverables */
+
+.info-grid {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  padding-left: 7.5rem;
+}
+.item-a {
+  padding-bottom: 1.8rem;
 }
 
-.home-hero{
-    background-color: #F0E6E2;
+.item-c {
+  padding-bottom: 1.8rem;
 }
 
-.priscillank {
-  height: 42.2rem;
-  padding-top: 8.5rem;
+.item-b, .item-d {
+  padding-bottom: 3.2rem;
+}
+
+/* background color wrappers + image dividers*/
+
+.bg-color-pink {
+  background-color: #F0E6E2;
+}
+
+.bg-color-sienna {
+  background-color: #C66D44;
+}
+
+/* styling for desktop version */
+
+.divider-desktop {
+  display: none;
+}
+
+/* Problem + Solution Section */
+.project-main h3 {
+  color: #2F3B3E;
+  padding-bottom: .8em;
+}
+
+.project-main p {
+  color: #425458;
+  padding-bottom: 3.2rem;
+}
+
+.cow-wrap, .solution-wrap {
+  text-align: center;
+}
+
+.sol-img {
+  width: 100%;
+  height:36rem;
+}
+
+.section-wrap {
+  text-align: left;
+  padding-top: 3.2rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #F0E6E2;
 }
 
 
-.myName {
-  font-family: "Playfair Display";
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 3.5rem;
+
+.section1 p {
+  padding-bottom: 1.8rem;
+}
+
+
+/* User Survey GRAPH SECTIION */
+
+.fig-section-graph {
+  margin-top: 2rem;
+  margin-bottom:3.2rem;
+  width: 33.3rem;
+}
+.fig-section-graph img {
+  width: 100%;
+}
+
+/* Styled all of the text in "Sienna" here */
+.persona-1 h4, .persona-2 h4 {
+  color: #C66D44;
+  padding-bottom: .8em;
+}
+
+.section1 h6 {
+  padding-top: 3.2rem;
+  padding-bottom: .8em;
+  color: #C66D44;
+}
+/* Competitors Logo */
+.competitors-img-wrap img {
+  height:9.8rem;
+  width: 9.63rem;
+  margin-bottom: 3.2rem;
+
+}
+
+.competitors-img-wrap {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Personas */
+.persona-1 figcaption, .persona-2 figcaption {
+  text-align: left;
+  color: #2F3B3E;
+}
+
+.persona-1 figure, .persona-2 figure {
+  text-align: center;
+}
+
+.persona-1 figure {
+  padding-bottom: 5rem;
+}
+
+.persona-1 h6, .persona-2 h6 {
+  color: #2F3B3E;
+  padding-bottom: .6rem;
+}
+
+.persona-1, .persona-2 {
+  width: 33.3rem;
+}
+
+
+/* Sketches + Wireframes */
+.sketches-mobile img, .sketches-desktop img {
+  width: 33.3rem;
+  height: auto;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+}
+
+.sketches {
+  margin-top: 3.2rem;
+}
+
+/* Hide additional sketches for Mobile */
+
+.sketches-desktop {
+  display: none;
+}
+
+
+/* BRAND + IDENTITY */
+/* brainstorming images */
+.fig-section-brand-brain img {
+  box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+}
+
+.fig-section-brand img {
+box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+margin-top: 3.2rem;
+}
+
+.cache-meaning h2 {
+  color: #2F3B3E;
+}
+
+.cache-meaning h5 {
   color: #425458;
 }
 
-.intro {
-  text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 14rem;
+/* images that do not require a drop-shadow and additional space */
+.fig-section img {
+  margin-top: 3.2rem;
 }
 
-p {
-  font-family: "Open Sans";
-  font-size: 1.6rem;
-  line-height: 2.8rem;
+/* FONTS */
+
+.fonts-desktop, .mockups-desktop {
+  display:none;
 }
 
-h1 {
-  font-family: "Playfair Display";
-  font-weight: bold;
-  font-size: 4.8rem;
-  line-height: 6.4rem;
-  letter-spacing: .02rem;
-}
+/* HIFI MOCKUPS */
 
-h3 {
-  font-family: "Playfair Display";
-  font-weight: bold;
-  font-size: 2.4rem;
-  line-height: 3.4rem;
-  letter-spacing: .02rem;
-}
-
-h5 {
-  font-family: "Playfair Display";
-  font-size: 1.8rem;
-  line-height: 3.5rem;
+.mockups img {
+  width: 33.3rem;
+  height: auto;
+  margin-bottom: 1.5rem;
 
 }
 
-.logo {
-  height:4rem;
+/* FINAL MOCKUPS */
+
+.fig-section-final img {
+  box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+  margin-bottom: 1.5rem;
+}
+
+.fig-section-final, .fig-section-final2 {
+  padding-top: 2rem;
+}
+
+.section-wrap-end {
+  text-align: left;
+  padding-top: 3.2rem;
+  margin-bottom: 10rem;
+}
+
+.fig-section-end img{
+  padding-top: 3rem;
+}
+
+/* FOR DESKTOP */
+@media screen and (min-width: 1199px){
+
+.container, nav ul {
+  width: 107rem;
 }
 
 main {
-  padding-top: 6rem;
-  padding-bottom: 15rem;
-  background-color: white;
-  width:107rem;
-  margin: auto;
-  text-align: center;
+  margin-bottom: 6rem;
 }
 
+.priscillank {
+    height: 42.2rem;
+    padding-top: 8.5rem;
+    padding-left: 10rem;
+  }
 
-/* this is for the project tiles */
+.intro {
+  width: 50.9rem;
+}
+
 .title {
   color: white;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.content {
-  position: relative;
+.content-text {
   width: 100%;
-  margin: auto;
-  overflow: hidden;
 }
 
-.content .content-overlay {
-  background: rgba(255,255,255, 0.7);
+/* Project thumbnail image size changes for desktop */
+
+.content-image-mobile {
+  display:none;
+}
+.content-image {
+  display:block;
+}
+
+/* desktop project overlay hover */
+.content-thumbnail .content-overlay {
+  background: rgba(255,255,255, 0.9);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -179,7 +513,7 @@ main {
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content-thumbnail:hover .content-overlay{
   opacity: 1;
 }
 
@@ -204,55 +538,100 @@ main {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.content:hover .content-details{
+.content-thumbnail:hover .content-details{
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-.content-details h3{
-  color: #2F3B3E;
-  margin-bottom: 0.5rem;
-}
-
-.content-details p{
-  color: #2F3B3E;
-}
 
 .fadeIn-bottom{
   top: 80%;
 }
 
+/* CASE STUDIES STYLING FOR DESKTOP */
+/* THIS IS CSS STYLING FOR CASE STUDIES*/
 
-footer{
+.project-hero{
+  margin: auto;
+  padding-top: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.project-grid {
+  display:grid;
+  grid-template-columns: 44.8rem 56.9rem;
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+
+/* Project Information header DESTOP */
+
+.item-1 h2{
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: .02rem;
+}
+
+
+
+/* Takes care of the project deliverables, tools, roles, and duration*/
+.info-grid {
+  display:grid;
+  grid-template-columns: 12rem 16rem 12rem 16rem;
+  grid-column-gap: 9rem;
+}
+
+.container.info-grid {
+  justify-content: center;
+  padding-bottom: 10rem;
+  padding-top:6rem;
+  background-color: #F0E6E2;
+}
+
+.item-a, .item-b, .item-c, .item-d {
+  text-align: left;
+}
+
+.item-a {
+  grid-column: 1 / span 1;
+}
+
+.item-c {
+  grid-column: 3 / span 1;
+  grid-row: 1 / 2;
+}
+
+.item-d {
+  grid-column: 4 / span 1;
+  grid-row: 1 / 3;
+}
+}
+
+
+
+footer {
   background-color: #C66D44;
-  color:white;
+  color: white;
   text-align: center;
+  padding-top: 5rem;
 }
 
 .footer-container {
-  padding-top: 5rem;
-  width:100%;
+  margin: auto;
   }
 
-.sm-container {
+.sm-container  {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-footer ul {
-  margin-top: 5rem;
+.social-media {
+  margin-top: 3rem;
   margin-bottom: 17.4rem;
   display: flex;
   justify-content: space-between;
   width: 24rem;
-}
-
-
-
-
-/*PROJECT PAGES STYLING*/
-.project-hero-image {
-
 }
