@@ -302,7 +302,7 @@ padding-top: 5rem;
 hr {
   background-image: url('/images/project/userflow-divider-desktop.png');
   background-size: cover;
-  border: .2px;
+  border: 0;
   height: 17.3rem;
   width: 100%;
   display: block;
