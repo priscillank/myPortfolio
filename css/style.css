@@ -300,12 +300,10 @@ padding-top: 5rem;
 
 /* styling for mobile version */
 hr {
-  background-image: url('images/project/userflow-divider-desktop.png');
+  background-image: url('/images/project/userflow-divider-desktop.png');
   background-size: cover;
   border: 0;
   height: 17.3rem;
-  width: 100%;
-  display: block;
 }
 
 
