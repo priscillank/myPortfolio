@@ -306,6 +306,7 @@ hr {
   height: 17.3rem;
   width: 100%;
   display: block;
+  clear:both;
 }
 
 
