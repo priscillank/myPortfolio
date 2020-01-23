@@ -304,6 +304,8 @@ hr {
   background-size: cover;
   border: 0;
   height: 17.3rem;
+  width: 100%;
+  display: block;
 }
 
 
