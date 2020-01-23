@@ -6,6 +6,26 @@ html{
   font-size: 10px;
 }
 
+/*** BACK TO TOP BUTTON ***/
+#myBtn {
+  display: none;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  position: fixed;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+  background-color: transparent;
+
+}
+
+#myBtn:hover {
+  background: url("/images/project/backtop.svg") no-repeat;
+}
 
 
 .container {
@@ -278,13 +298,14 @@ padding-top: 5rem;
   background-color: #C66D44;
 }
 
-/* styling for desktop version */
-
-.img-dividers {
+/* styling for mobile version */
+hr {
   background-image: url('/images/project/userflow-divider-desktop.png');
-  background-size:cover;
+  background-size: cover;
+  border: 0;
   height: 17.3rem;
 }
+
 
 .divider {
   height:17.3rem;
@@ -476,6 +497,10 @@ margin-top: 3.2rem;
 
 main {
   margin-bottom: 6rem;
+}
+
+hr {
+  height: 34rem;
 }
 
 .priscillank {
