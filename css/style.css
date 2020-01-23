@@ -534,7 +534,7 @@ margin-top: 3.2rem;
 
 
 /* FOR DESKTOP */
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 1199px) {
 
 .container, nav ul {
   width: 107rem;
