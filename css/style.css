@@ -347,7 +347,7 @@ figcaption {
 
 /* HR STYLING FOR MOBILE */
 hr {
-  background-image: url('../../images/project/userflow-divider-desktop.png');
+  background-image: url("../../images/project/userflow-divider-desktop.png");
   background-size: cover;
   border: 0;
   height: 17.3rem;
@@ -388,8 +388,14 @@ hr {
   text-align: left;
 }
 
-.section1 p {
-  padding-bottom: 1.8rem;
+/* For sections that do not need a bottom-border or padding.*/
+.section-wrap-nobottom {
+  padding-top: 3.2rem;
+  text-align: left;
+}
+
+.container p {
+  margin-bottom: 1.8rem;
 }
 
 
@@ -406,7 +412,7 @@ hr {
 }
 
 /* ADDITIONAL STYLING FOR SIENNA COLORED FONTS */
-.section1 h6 {
+.container h6 {
   color: #C66D44;
   padding-bottom: .8em;
   padding-top: 3.2rem;
@@ -760,9 +766,6 @@ hr {
   margin: auto;
 }
 
-.section1 h6 {
-  padding-top: 2rem;
-}
 
 
 /* COMPETITIVE ANALYSIS */
@@ -794,6 +797,33 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
+/* LOFI SKETCHES + WIREFRAMES */
+
+.sketches-desktop {
+  display: grid;
+  grid-template-columns: 29.4rem 29.4rem;
+  grid-column-gap: 1.5rem;
+  align-items: start;
+}
+
+.sketches-mobile {
+ display: grid;
+ grid-template-columns: 29.4rem 29.4rem;
+ grid-column-gap: 1.4rem;
+ align-items: start;
+}
+
+.sketches-mobile img, .sketches-desktop img {
+  width: 29.4rem;
+  height: 18.4rem;
+}
+
+.sketches {
+  display: flex;
+  justify-content:space-between;
+}
+
 }
 
 
