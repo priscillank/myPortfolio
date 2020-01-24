@@ -170,7 +170,7 @@ figcaption {
 }
 
 /****** CONTAINER1 IS USED FOR RESPONSIVE LAYOUT ******/
-.container, .container1, .container-large   {
+.container, .container1, .container-large, .container-large1   {
   margin: auto;
   width: 33.3rem;
 }
@@ -347,7 +347,7 @@ figcaption {
 
 /* HR STYLING FOR MOBILE */
 hr {
-  background-image: url("../../images/project/userflow-divider-desktop.png");
+  background-image: url("../images/project/userflow-divider-desktop.png");
   background-size: cover;
   border: 0;
   height: 17.3rem;
@@ -799,29 +799,37 @@ hr {
 }
 
 /* LOFI SKETCHES + WIREFRAMES */
+.container-large1 {
+  width:130rem;
+}
 
 .sketches-desktop {
-  display: grid;
-  grid-template-columns: 29.4rem 29.4rem;
-  grid-column-gap: 1.5rem;
   align-items: start;
+  display: grid;
+  grid-template-columns: 31.4rem 31.4rem;
+  grid-column-gap: 1.5rem;
 }
 
 .sketches-mobile {
- display: grid;
- grid-template-columns: 29.4rem 29.4rem;
- grid-column-gap: 1.4rem;
  align-items: start;
+ display: grid;
+ grid-template-columns: 31.4rem 31.4rem;
+ grid-column-gap: 1.4rem;
 }
 
 .sketches-mobile img, .sketches-desktop img {
-  width: 29.4rem;
-  height: 18.4rem;
+  height: 19.4rem;
+  width: 31.4rem;
+
 }
 
 .sketches {
   display: flex;
   justify-content:space-between;
+
+
+
+
 }
 
 }
