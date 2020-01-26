@@ -42,6 +42,7 @@ h2 {
   line-height: 4.8rem;
 
 }
+
 h3 {
   font-family: "Playfair Display";
   font-size: 2.4rem;
@@ -130,7 +131,8 @@ nav a:active {
 }
 
 figure {
-  padding-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
 }
 
 figcaption {
@@ -169,18 +171,19 @@ figcaption {
   height:4rem;
 }
 
-/****** CONTAINER1 IS USED FOR RESPONSIVE LAYOUT ******/
-.container, .container1, .container-large, .container-large1   {
+/****** CONTAINER1 + LARGE IS USED FOR RESPONSIVE LAYOUT ******/
+.container, .container1, .container-large {
   margin: auto;
   width: 33.3rem;
 }
 
 .intro {
-  margin-bottom: 14rem;
+  margin-bottom: 15rem;
   margin-top: 10rem;
   text-align: center;
-  width: 293px;
+  width: 29.3rem;
 }
+
 
 /* PADDING TO CENTER HOME HERO IMAGE */
 .priscillank {
@@ -286,17 +289,25 @@ figcaption {
 /* CASE STUDY/PROJECT PAGE STYLING */
 
 /* Project Information header */
+/*padding-bottom for mobile */
+.container h1 {
+  margin-bottom: 3.2rem;
+}
+
+.container p {
+  margin-bottom: 1.8rem;
+}
+
 .item-1 {
-  padding-bottom: 3.2rem;
+  padding-bottom: 1.8rem;
 }
 
 .project-hero {
-  padding-bottom: 3.2rem;
   padding-top: 5rem;
 }
 
-.project-grid {
-  margin-bottom: 5rem;
+.project-hero figure {
+  margin-bottom: 0;
 }
 
 .item-2 p {
@@ -373,7 +384,7 @@ hr {
   width: 100%;
 }
 
-.section-wrap, .section-wrap-2 {
+.section-wrap {
   border-bottom: 1px solid #F0E6E2;
   padding-bottom: 5rem;
   padding-top: 3.2rem;
@@ -381,22 +392,22 @@ hr {
 }
 
 
-/* For sections that do not need a bottom-border */
+/* For sections that do not need a bottom-border MOBILE*/
 .section-wrap-none {
   padding-bottom: 5rem;
   padding-top: 3.2rem;
   text-align: left;
 }
 
-/* For sections that do not need a bottom-border or padding.*/
+/* For sections that do not need a bottom-border or padding. MOBILE*/
 .section-wrap-nobottom {
   padding-top: 3.2rem;
   text-align: left;
 }
 
-.container p {
-  margin-bottom: 1.8rem;
-}
+
+
+
 
 
 /* USER SURVEY GRAPH SECTIION */
@@ -407,8 +418,17 @@ hr {
   width: 33.3rem;
 }
 
-.fig-section-graph img {
+.test-box figure, .fig-section-graph figure:last-child {
+    margin-bottom: 0;
+}
+
+.fig-section-graph, .fig-section img {
   width: 100%;
+}
+
+.project-links a {
+padding-bottom: 4rem;
+display:block;
 }
 
 /* ADDITIONAL STYLING FOR SIENNA COLORED FONTS */
@@ -426,6 +446,8 @@ hr {
 }
 
 .competitors-img-wrap {
+  padding-bottom: 3.2rem;
+  padding-top:1.8rem;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -435,7 +457,6 @@ hr {
 /* PERSONAS */
 .persona-1 h4, .persona-2 h4 {
   color: #C66D44;
-  padding-bottom: .8em;
 }
 
 .persona-1 figcaption, .persona-2 figcaption {
@@ -447,9 +468,6 @@ hr {
   text-align: center;
 }
 
-.persona-1 figure {
-  padding-bottom: 5rem;
-}
 
 .persona-1 h6, .persona-2 h6 {
   color: #2F3B3E;
@@ -460,7 +478,9 @@ hr {
   width: 33.3rem;
 }
 
-
+.persona-1 {
+  margin-bottom: 5rem;
+}
 
 /* SKETCHES + WIREFRAMES */
 .sketches-mobile img, .sketches-desktop img {
@@ -474,16 +494,17 @@ hr {
   margin-top: 3.2rem;
 }
 
+.fig-section-brand-brain img {
+  width: 100%;
+}
+
 
 /* BRAND + IDENTITY */
 /* brainstorming images */
-.fig-section-brand-brain img {
-  box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
-}
+
 
 .fig-section-brand img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
-  margin-top: 3.2rem;
 }
 
 /* CACHE WORD STYLING FOR BRAND IDENTITY */
@@ -495,29 +516,44 @@ hr {
   color: #425458;
 }
 
-/* images that do not require a drop-shadow and additional space */
-.fig-section img {
-  margin-top: 3.2rem;
-}
-
-
 /* HIFI MOCKUPS */
 
-.mockups img {
+.mockups img , .mockups-mobile-fail img{
   height: auto;
   margin-bottom: 1.5rem
   width: 33.3rem;
 }
 
+/*AB TEST*/
+.test-box {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
 /* FINAL MOCKUPS */
+
+.test-box img, .fig-section-final2 img{
+  margin-bottom: 0rem;
+  width: 100%;
+}
+
 
 .fig-section-final img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
+  width: 100%;
+}
+
+.fig-section-final figure {
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.fig-section-final, .fig-section-final2 {
-  padding-top: 2rem;
+.fig-section-final figure:last-child {
+  margin-bottom: 3.2rem;
+}
+
+
+.test-box img:last-child {
+    margin-bottom: 0;
 }
 
 .section-wrap-end {
@@ -527,14 +563,16 @@ hr {
 }
 
 .fig-section-end img{
-  padding-top: 3rem;
+  padding-top: 6rem;
+  width: 100%;
 }
+
 
 /* FONTS + THINGS THAT NEED TO BE HIDDEN FOR MOBILE DEVICES*/
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.fonts-desktop, .mockups-desktop, .about-image-desktop, .content-image, .sketches-desktop  {
+.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .sketches-desktop, .colors-desktop  {
   display:none;
 }
 
@@ -551,8 +589,10 @@ main {
 }
 
 hr {
-  height: 34rem;
+  height: 40rem;
 }
+
+
 
 .priscillank {
     height: 42.2rem;
@@ -638,6 +678,7 @@ hr {
 
 
 
+
 /* ABOUT ME PAGE */
 .about-image-desktop {
   display: block;
@@ -664,46 +705,37 @@ hr {
   width: 57rem;
 }
 
+.col1-about figure {
+  margin-bottom:0;
+  margin-top: 0;
+}
+
 /* CASE STUDIES STYLING FOR DESKTOP */
 /* THIS IS CSS STYLING FOR CASE STUDIES*/
+.project-main h3 {
+  padding-bottom: 0em;
+}
 
 .section-wrap, .section-wrap-none  {
   padding-bottom: 10rem;
   padding-top: 6rem;
 }
 
-
 .section-wrap-end {
-  padding-bottom: 15rem;
+  margin-bottom: 15rem;
+  padding-top: 6rem;
+}
+
+/* For sections that do not need a bottom-border or padding.*/
+.section-wrap-nobottom {
+  padding-top: 6rem;
+  text-align: left;
 }
 
 
-/* For sections that do not need a bottom-border */
-
-.project-hero {
-  margin-bottom: 3.2rem;
-  margin: auto;
-  padding-top: 1.8rem;
-}
-
-.project-grid {
-  display:grid;
-  grid-template-columns: 44.8rem 56.9rem;
-  padding-bottom: 10rem;
-  margin: auto;
-}
 
 
 /* Project Information header DESTOP */
-
-.item-1 h2{
-  font-size: 4.8rem;
-  letter-spacing: .02rem;
-  line-height: 6.4rem;
-}
-
-
-
 /* Takes care of the project deliverables, tools, roles, and duration*/
 .info-grid {
   display:grid;
@@ -738,41 +770,34 @@ hr {
 
 /**** PROBLEM + SOLUTION *****/
 
-.project-grid-a {
+.project-grid-b {
+  align-items: start;
   display:grid;
   grid-template-columns: 49.4rem 57rem;
   justify-content: space-between;
-  align-items: end;
   margin: auto;
-  grid-row-gap: 5rem;
+  grid-row-gap: 6rem;
 }
 
 .col2-project {
   align-self: center;
 }
 
+.col2-project h3{
+  padding-bottom: .8em;
+}
+
 .col1-project {
   align-self: center;
 }
-
-
-/**** USER SURVEYS *****/
-
-.project-grid-b {
-  display:grid;
-  grid-template-columns: 49.4rem 57rem;
-  justify-content: space-between;
-  align-items: start;
-  margin: auto;
-}
-
-
 
 /* COMPETITIVE ANALYSIS */
 .competitors-img-wrap  {
   flex-direction: column;
   margin-left: 8.5rem;
   margin-top: 6.8rem;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .competitors-img-wrap img {
@@ -798,16 +823,23 @@ hr {
   justify-content: space-between;
 }
 
-/* LOFI SKETCHES + WIREFRAMES */
-.container-large1 {
-  width:130rem;
+.persona-1 {
+  margin-bottom: 0rem;
 }
+
+.persona-2 figure, .persona-1 figure {
+  margin-bottom:0;
+  margin-top:3.2rem;
+}
+
+/* LOFI SKETCHES + WIREFRAMES */
 
 .sketches-desktop {
   align-items: start;
   display: grid;
   grid-template-columns: 31.4rem 31.4rem;
   grid-column-gap: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .sketches-mobile {
@@ -817,22 +849,137 @@ hr {
  grid-column-gap: 1.4rem;
 }
 
+/*sketches for wireframes that includes additional screens for desktop viewing */
 .sketches-mobile img, .sketches-desktop img {
   height: 19.4rem;
   width: 31.4rem;
+}
 
+.sketches, .fig-section-brand-brain {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sketches {
+  margin-top: 6rem;
+  overflow-x: visible;
+  transform: translateX(-10.5%);
+}
+
+
+/*BRAND IDENTITY*/
+
+.fig-section-brand-brain img {
+    width: 60rem;
+  }
+
+.fig-section-brand-brain {
+    margin-bottom: 10rem;
+    margin-top: 6rem;
+    overflow-x: visible;
+    transform: translateX(-7%);
+  }
+
+.fig-brain1 {
+  margin-right: 2rem;
+}
+
+.fig-section-brand {
+  margin-top: 6.8rem;
+  margin-bottom: 11.5rem;
+}
+
+.cache-meaning {
+  padding-left: 18.5%;
+}
+
+.container h6 {
+  padding-top: 0rem;
+}
+
+/* COLORS */
+/* I grouped the things that need too be hidden*/
+.colors, .fonts-mobile , .mockups-mobile-fail, .mockups {
+  display: none;
+}
+
+.colors-desktop {
+  display: block;
+  margin-bottom: 6rem;
+}
+
+/*TYPOGRAPHY*/
+
+.fonts-desktop {
+  display: block;
+  padding-left: 5%;
+}
+
+/* MOCKUPS */
+
+.mockups-desktop-fail, .mockups-desktop {
+  display:block;
+}
+
+
+/* images that do not require a drop-shadow and additional space */
+.fig-section img, .mockups-desktop-fail img {
+  margin-top: 5.8rem;
+  margin-bottom: 10.5rem;
+}
+
+.mockups-desktop {
+  margin-top: 6rem;
+  width: 122.6rem;
+  overflow-x: visible;
+  transform: translateX(-6.5%);
+}
+
+/* AB TESTING */
+.test-box {
+  overflow-x: visible;
+  transform: translateX(-6.5%);
+  width: 122.6rem;
   display: flex;
-  justify-content:space-between;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top:6.8rem;
+  padding-bottom: 6rem;
+}
+/*FINAL*/
 
+.fig-section-final {
+  overflow-x: visible;
+  transform: translateX(-6.5%);
+  display:grid;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 2.5rem;
+  width:122.6rem;
+  grid-template-columns: 39.2rem 39.2rem 39.2rem;
+  margin-top: 6rem;
+}
 
+.fig-section-final figure {
+  width:39.2rem;
+  height: 24.6rem;
+  margin:0;
+}
+
+/* FINAL MOBILE */
+.fig-section-final2 {
+  width: 65.4rem;
+  margin: auto;
+}
+
+.fig-section-end img{
+  padding-top: 15rem;
+  margin-left: 20%;
+  width: 65.5rem;
+}
 
 
 }
 
-}
 
 
 footer {
