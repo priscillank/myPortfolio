@@ -422,7 +422,7 @@ hr {
     margin-bottom: 0;
 }
 
-.fig-section-graph, .fig-section img {
+.fig-section-graph img, .fig-section img {
   width: 100%;
 }
 
