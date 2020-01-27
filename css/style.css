@@ -357,7 +357,7 @@ figcaption {
 
 /* HR STYLING FOR MOBILE */
 hr {
-  background-image: url("https://priscillank.github.io/myPortfolio/images/project/userflow-divider-desktop.png");
+  background-image: url("../images/project/userflow-divider-desktop.png");
   background-size: cover;
   border: 0;
   height: 17.3rem;
