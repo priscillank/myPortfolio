@@ -379,8 +379,8 @@ hr {
 }
 
 .sol-img {
-  height:36rem;
-  width: 100%;
+  height:auto;
+  width:100%;
   margin-top: 3.2rem;
 }
 
@@ -667,8 +667,8 @@ hr {
 /* PROBLEM + SOLUTION */
 .sol-img {
     margin-top: 10rem;
-    height:auto;
-    width: 85%;
+    height: auto;
+    width: 88%;
 }
 
 .section-wrap {
