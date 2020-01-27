@@ -667,6 +667,8 @@ hr {
 /* PROBLEM + SOLUTION */
 .sol-img {
     margin-top: 10rem;
+    height:auto;
+    width: 85%;
 }
 
 .section-wrap {
