@@ -1130,7 +1130,7 @@ hr {
   display:block;
 }
 
-.mockups-desktop-fail img{
+.mockups-desktop-fail img {
   width:107rem;
 }
 
@@ -1138,6 +1138,10 @@ hr {
 .fig-section img, .mockups-desktop-fail img {
   margin-top: 5.8rem;
   margin-bottom: 10.5rem;
+}
+
+.mockups-desktop img {
+  width: 122.6rem;
 }
 
 .mockups-desktop {
