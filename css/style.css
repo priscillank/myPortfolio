@@ -568,7 +568,7 @@ hr {
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .about-image-tablet  {
+.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .about-image-tablet, .content-image-hero  {
   display:none;
 }
 
@@ -619,7 +619,7 @@ hr {
   display:none;
 }
 
-.content-image-tablet {
+.content-image-tablet, .content-image-hero {
   display: block;
   width:100%;
 }
