@@ -302,7 +302,8 @@ figcaption {
 }
 
 .project-hero {
-  padding-top: 5rem;
+  margin-top: 5rem;
+  padding-bottom:1rem;
 }
 
 .project-hero figure {
@@ -354,6 +355,9 @@ figcaption {
   background-color: #F0E6E2;
 }
 
+.bg-color-green {
+  background-color: #9AB08B;
+}
 
 /* HR STYLING FOR MOBILE */
 hr {
@@ -580,7 +584,6 @@ hr {
     margin-bottom: 20rem;
     margin-top: 15rem;
   }
-
 
 .solution-wrap {
     text-align: center;
@@ -938,6 +941,9 @@ hr {
 /* CASE STUDIES STYLING FOR DESKTOP */
 /* THIS IS CSS STYLING FOR CASE STUDIES*/
 
+.project-hero {
+  padding-bottom:3rem;
+}
 
 .project-main h3 {
   padding-bottom: 0em;
