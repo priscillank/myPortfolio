@@ -374,7 +374,7 @@ hr {
   color: #425458;
 }
 
-.cow-wrap, .solution-wrap {
+.cow-wrap {
   text-align: center;
 }
 
@@ -581,6 +581,10 @@ hr {
     margin-top: 15rem;
   }
 
+
+.solution-wrap {
+    text-align: center;
+  }
 
 /* PADDING TO CENTER HOME HERO IMAGE TABLET*/
 .priscillank {
@@ -933,6 +937,8 @@ hr {
 
 /* CASE STUDIES STYLING FOR DESKTOP */
 /* THIS IS CSS STYLING FOR CASE STUDIES*/
+
+
 .project-main h3 {
   padding-bottom: 0em;
 }
