@@ -483,7 +483,6 @@ hr {
 }
 
 /* SKETCHES + WIREFRAMES */
-
 .sketches-mobile img, .sketches-desktop img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
   height: auto;
@@ -524,10 +523,10 @@ hr {
 /*AB TEST*/
 .test-box {
   padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
+  padding-bottom: 1.8rem;
 }
-/* FINAL MOCKUPS */
 
+/* FINAL MOCKUPS */
 .test-box img, .fig-section-final2 img{
   margin-bottom: 0rem;
   width: 100%;
@@ -547,10 +546,6 @@ hr {
   margin-bottom: 3.2rem;
 }
 
-
-.test-box img:last-child {
-    margin-bottom: 0;
-}
 
 .section-wrap-end {
   margin-bottom: 10rem;
@@ -789,13 +784,18 @@ hr {
 /*AB TEST*/
 .test-box {
   overflow-x: visible;
-  transform: translateX(-5%);
+  transform: translateX(-5.5%);
   width: 73rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding-top:8rem;
 }
+
+.test-box img {
+  width:36.2rem;
+}
+
 
 /* FINAL MOCKUPS */
 
@@ -1170,6 +1170,10 @@ hr {
   width: 122.6rem;
   padding-top:8rem;
   padding-bottom: 6rem;
+}
+
+.test-box img {
+  width:58rem;
 }
 
 /*FINAL*/
