@@ -514,6 +514,11 @@ hr {
   color: #425458;
 }
 
+/* MOCKUPS */
+.mockups-mobile-fail img, .mockups img {
+  width: 100%;
+}
+
 /*AB TEST*/
 .test-box {
   padding-top: 3.2rem;
