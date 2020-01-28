@@ -432,6 +432,11 @@ hr {
   width: 100%;
 }
 
+.fig-section {
+  padding-top: 1.8rem;
+}
+
+
 /* ADDITIONAL STYLING FOR SIENNA COLORED FONTS */
 .container h6 {
   color: #C66D44;
@@ -752,6 +757,10 @@ hr {
 }
 
 /* BRAND + IDENTITY */
+.fig-section {
+  padding-top: 0;
+}
+
 .fig-section-brand-brain, .fig-section-brand {
     margin-bottom: 8rem;
     margin-top: 6rem;
