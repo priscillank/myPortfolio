@@ -563,7 +563,7 @@ hr {
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .sketches-desktop, .colors-desktop, .about-image-tablet  {
+.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .about-image-tablet  {
   display:none;
 }
 
@@ -609,14 +609,23 @@ hr {
       padding-top: 8.5rem;
     }
 
-/* THIS REFERS TO THE THUMBNAILS FOR CASE STUDIES IN THE HOME PAGE */
+/* THIS REFERS TO THE THUMBNAILS FOR CASE STUDIES IN THE HOME PAGE ON TABLET */
 .content-image-mobile {
-    width: 100%;
-  }
+  display:none;
+}
+
+.content-image-tablet {
+  display: block;
+  width:100%;
+}
+
+.content-thumbnail {
+  width:100%;
+}
 
 .content-details {
     width: 40rem;
-  }
+}
 
 /* ABOUT ME PAGE STYLING */
 
@@ -858,7 +867,7 @@ hr {
 
 /* Project thumbnail image size changes for desktop */
 
-.content-image-mobile {
+.content-image-tablet {
   display:none;
 }
 
