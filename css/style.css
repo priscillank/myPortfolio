@@ -1130,6 +1130,9 @@ hr {
   display:block;
 }
 
+.mockups-desktop-fail img{
+  width:107rem;
+}
 
 /* images that do not require a drop-shadow and additional space */
 .fig-section img, .mockups-desktop-fail img {
