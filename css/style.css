@@ -181,9 +181,11 @@ figcaption {
   margin-bottom: 15rem;
   margin-top: 10rem;
   text-align: center;
-  width: 29.30px;
 }
 
+.intro2 {
+  display: none;
+}
 
 /* PADDING TO CENTER HOME HERO IMAGE */
 .priscillank {
@@ -584,11 +586,17 @@ hr {
     padding-top: 0rem;
   }
 
-.intro {
+.intro2 {
+    display: block;
     width: 50.9rem;
+    text-align: center;
     margin-bottom: 20rem;
     margin-top: 15rem;
   }
+
+.intro {
+  display:none;
+}
 
 .solution-wrap {
     text-align: center;
@@ -834,7 +842,7 @@ hr {
     padding-top: 8.5rem;
 }
 
-.intro {
+.intro2 {
   width: 50.9rem;
 }
 
