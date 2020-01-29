@@ -10,8 +10,6 @@ header {
 color: #425458;
 }
 
-/*** FONTS ***/
-
 p {
   font-family: "Open Sans";
   font-size: 1.6rem;
@@ -355,6 +353,7 @@ figcaption {
 
 .bg-color-pink {
   background-color: #F0E6E2;
+  width: 100vw;
 }
 
 .bg-color-green {
@@ -843,7 +842,6 @@ hr {
 
 /* FOR DESKTOP */
 @media screen and (min-width: 1199px) {
-
 .container, nav ul {
   width: 107rem;
 }
@@ -1237,6 +1235,7 @@ footer {
   color: white;
   padding-top: 5rem;
   text-align: center;
+  width: 100vw;
 }
 
 .footer-container {
@@ -1264,4 +1263,5 @@ footer {
   font-size: 1.2rem;
   line-height: 3.5rem;
   padding-bottom: .5rem;
+  width: 100vw;
 }
