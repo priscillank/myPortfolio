@@ -6,6 +6,10 @@ html {
   font-size: 10px;
 }
 
+body {
+  overflow-x:hidden;
+}
+
 header {
   color: #425458;
 }
@@ -360,8 +364,9 @@ figcaption {
 /* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES */
 
 .info-grid {
+  display:grid;
+  grid-template-columns:
   padding-bottom: 3.2rem;
-  padding-left: 7.5rem;
   padding-top: 3.2rem;
 }
 
@@ -755,9 +760,7 @@ and (orientation : landscape) {
 
 /* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES TABLET*/
 
-.info-grid {
-  padding-left: 0rem;
-}
+
 
 /* HR STYLING FOR TABLET */
 hr {
@@ -1096,7 +1099,6 @@ hr {
 }
 
 .container.info-grid {
-  padding-left: 0rem;
   padding-bottom: 6rem;
   padding-top: 6rem;
 }
