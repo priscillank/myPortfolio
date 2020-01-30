@@ -1186,6 +1186,7 @@ hr {
  display: grid;
  grid-template-columns: 31.4rem 31.4rem;
  grid-column-gap: 1.4rem;
+ margin-top:0;
 }
 
 /*sketches for wireframes that includes additional screens for desktop viewing */
