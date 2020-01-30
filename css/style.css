@@ -113,11 +113,13 @@ nav ul li a {
 
 nav ul li:first-child {
   margin-right: auto;
+  padding-left: 0rem;
 }
 
-nav ul li:last-child {
-  padding-left: 3.9rem;
+nav ul li {
+  padding-left: 3.8rem;
 }
+
 
 a {
 text-decoration: none;
