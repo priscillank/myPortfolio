@@ -14,9 +14,10 @@ header {
   color: #425458;
 }
 
+/*** FOR A FULL SCREEN EFFECT ON THE HOME PAGE ***/
 .header-home {
-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-height: calc(var(--vh, 1vh) * 100);
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 p {
@@ -47,7 +48,6 @@ h2 {
   font-weight: bold;
   letter-spacing: .04rem;
   line-height: 4.8rem;
-
 }
 
 h3 {
@@ -80,8 +80,9 @@ h6 {
   line-height: 3.4rem;
 }
 
-/* NAVIGATION BAR */
 
+
+/* NAVIGATION BAR */
 nav {
   background-color: white;
   display:flex;
@@ -99,8 +100,8 @@ nav ul {
   display: flex;
   height:6.5rem;
   justify-content: center;
-  width: 33.3rem;
   padding-top: 5px;
+  width: 33.3rem;
 }
 
 nav ul li a {
@@ -120,7 +121,6 @@ nav ul li:first-child {
 nav ul li {
   padding-left: 3.8rem;
 }
-
 
 a {
 text-decoration: none;
@@ -153,13 +153,13 @@ figcaption {
 
 
 /** BOUNCING ARROW TO INDICATE USER SHOULD SCROLL DOWN**/
-.arrow
-{ position: relative;
+.arrow {
   bottom: -8rem;
+  height: 40px;
   left: 50%;
   margin-left:-20px;
+  position: relative;
   width: 40px;
-  height: 40px;
 }
 
 .bounce {
@@ -199,6 +199,7 @@ figcaption {
   background: url("/images/project/backtop.svg") no-repeat;
 }
 
+/* PROGRESS BAR STYLING */
 #_progress {
       --scroll: 0%;
       background: linear-gradient(to right,rgb(232, 161, 83) var(--scroll),transparent 0);
@@ -207,7 +208,7 @@ figcaption {
       height: 5px;
       top:0px;
       z-index: 100;
-  }
+    }
 
 
 /* HOME PAGE STYLING */
@@ -276,7 +277,6 @@ figcaption {
 }
 
 
-
 /* THIS REFERS TO THE THUMBNAILS FOR CASE STUDIES IN THE HOME PAGE */
 .content-image-mobile {
   width: 100%;
@@ -305,9 +305,7 @@ figcaption {
 }
 
 
-
-/* ABOUT ME PAGE STYLING */
-
+/******* ABOUT ME PAGE STYLING *******/
 .about {
   color: #425458;
   padding-bottom: 5rem;
@@ -330,10 +328,10 @@ figcaption {
   margin-top: 0;
 }
 
-/* CASE STUDY/PROJECT PAGE STYLING */
+/******* CASE STUDY/PROJECT PAGE STYLING *******/
 
 /* Project Information header */
-/*padding-bottom for mobile */
+/* padding-bottom for mobile */
 .container h1 {
   margin-bottom: 3.2rem;
 }
@@ -360,7 +358,6 @@ figcaption {
 }
 
 /* LINKS WITH ARROWS */
-
 .project-links  {
   color: #E8A153;
   font-family: "Playfair Display";
@@ -371,11 +368,7 @@ figcaption {
   text-decoration: none;
 }
 
-
-
-
-/* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES */
-
+/******* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES *******/
 .info-grid {
   display:grid;
   grid-template-columns:
@@ -396,7 +389,6 @@ figcaption {
 }
 
 /* PINK BACKGROUND */
-
 .bg-color-pink {
   background-color: #F0E6E2;
   width: 100vw;
@@ -404,6 +396,7 @@ figcaption {
 
 .bg-color-green {
   background-color: #9AB08B;
+  width: 100vw;
 }
 
 /* HR STYLING FOR MOBILE */
@@ -415,7 +408,7 @@ hr {
 }
 
 
-/* PROBLEM + SOLUTION */
+/******* PROBLEM + SOLUTION *******/
 .project-main h3 {
   color: #2F3B3E;
   padding-bottom: .8em;
@@ -443,26 +436,21 @@ hr {
 }
 
 
-/* For sections that do not need a bottom-border MOBILE*/
+/* For sections that do not need a bottom-border MOBILE */
 .section-wrap-none {
   padding-bottom: 5rem;
   padding-top: 3.2rem;
   text-align: left;
 }
 
-/* For sections that do not need a bottom-border or padding. MOBILE*/
+/* For sections that do not need a bottom-border or padding MOBILE*/
 .section-wrap-nobottom {
   padding-top: 3.2rem;
   text-align: left;
 }
 
 
-
-
-
-
-/* USER SURVEY GRAPH SECTIION */
-
+/******* USER SURVEY GRAPH SECTIION *******/
 .fig-section-graph {
   margin-bottom:3.2rem;
   margin-top: 2rem;
@@ -489,7 +477,7 @@ hr {
   padding-top: 3.2rem;
 }
 
-/* COMPETITIVE ANALYSIS */
+/******* COMPETITIVE ANALYSIS *******/
 .competitors-img-wrap img {
   margin-bottom: 3.2rem;
   height:9.8rem;
@@ -497,15 +485,15 @@ hr {
 }
 
 .competitors-img-wrap {
-  padding-bottom: 3.2rem;
-  padding-top:1.8rem;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 3.2rem;
+  padding-top:1.8rem;
   text-align: center;
 }
 
 
-/* PERSONAS */
+/******* PERSONAS *******/
 .persona-1 h4, .persona-2 h4 {
   color: #C66D44;
 }
@@ -532,7 +520,8 @@ hr {
   margin-bottom:8rem;
 }
 
-/* SKETCHES + WIREFRAMES */
+
+/******* SKETCHES + WIREFRAMES *******/
 .sketches-mobile img, .sketches-desktop img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
   height: auto;
@@ -544,19 +533,17 @@ hr {
   margin-top: 3.2rem;
 }
 
-
-
 .fig-section-brand-brain img {
   width: 100%;
 }
 
 
-/* BRAND + IDENTITY */
+/******* BRAND + IDENTITY *******/
 /* brainstorming images */
-
 .fig-section-brand img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
 }
+
 
 /* CACHE WORD STYLING FOR BRAND IDENTITY */
 .cache-meaning h2 {
@@ -567,18 +554,18 @@ hr {
   color: #425458;
 }
 
-/* MOCKUPS */
+/******* MOCKUPS *******/
 .mockups-mobile-fail img, .mockups img {
   width: 100%;
 }
 
-/*AB TEST*/
+/******* A/B TESTING *******/
 .test-box {
   padding-top: 3.2rem;
   padding-bottom: 1.8rem;
 }
 
-/* FINAL MOCKUPS */
+/******* FINAL MOCKUPS *******/
 .test-box img, .fig-section-final2 img{
   margin-bottom: 0rem;
   width: 100%;
@@ -598,7 +585,7 @@ hr {
   margin-bottom: 3.2rem;
 }
 
-
+/* SPECIAL WRAP FOR THE END */
 .section-wrap-end {
   margin-bottom: 10rem;
   padding-top: 3.2rem;
@@ -619,7 +606,8 @@ hr {
   display:none;
 }
 
-/*IPHONE 6,7,8 LANDSCAPE*/
+
+/******* IPHONE 6,7,8 LANDSCAPE *******/
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
@@ -630,25 +618,24 @@ and (orientation : landscape) {
   }
 }
 
-/*IPHONE X PORTRAIT*/
 
+/******* IPHONE X PORTRAIT *******/
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) {
 
+.arrow {
+    bottom: -15rem;
+}
+
 .intro {
   margin-top: 8rem;
 }
-
-.arrow {
-  bottom: -15rem;
 }
 
-}
-
-/*IPHONE X LANDSCAPE*/
+/******* IPHONE X LANDSCAPE *******/
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px)
@@ -664,43 +651,45 @@ and (orientation : landscape) {
 }
 }
 
-/* FOR TABLET */
+
+
+/******* TABLET *******/
 @media screen and (min-width: 768px) {
 
-  /****** CONTAINER1 + LARGE IS USED FOR RESPONSIVE LAYOUT ******/
+/****** CONTAINER1 + LARGE IS USED FOR RESPONSIVE LAYOUT ******/
 .container, nav ul, .container1, .container-large {
-    width: 65.2rem;
-  }
+  width: 65.2rem;
+}
 
 .container h6 {
-    padding-top: 0rem;
-  }
+  padding-top: 0rem;
+}
 
 .intro2 {
-    display: block;
-    width: 50.9rem;
-    text-align: center;
-    margin-top: 15rem;
-  }
+  display: block;
+  margin-top: 15rem;
+  text-align: center;
+  width: 50.9rem;
+}
 
 .intro {
   display:none;
 }
 
 .solution-wrap {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-/* PADDING TO CENTER HOME HERO IMAGE TABLET*/
+/* PADDING TO CENTER HOME HERO IMAGE TABLET */
 .priscillank {
-      height: 38rem;
-      padding-left: 9rem;
-      padding-top: 6.5rem;
-    }
+  height: 38rem;
+  padding-left: 9rem;
+  padding-top: 6.5rem;
+}
 
 .arrow {
   bottom: -25rem;
-  }
+}
 
 /* THIS REFERS TO THE THUMBNAILS FOR CASE STUDIES IN THE HOME PAGE ON TABLET */
 .content-image-mobile {
@@ -720,23 +709,18 @@ and (orientation : landscape) {
     width: 40rem;
 }
 
-/* ABOUT ME PAGE STYLING */
-
+/******* ABOUT ME PAGE TABLET*******//
 .about-image-tablet, .colors-desktop {
-    display: block;
-  }
-
-
+  display: block;
+}
 
 .about-image-mobile, .about-image-desktop, .colors, .fonts-mobile   {
-    display: none;
-  }
+  display: none;
+}
 
 
-/* CASE STUDY/PROJECT PAGE STYLING */
-
-/* Project Information header TABLET*/
-/* Takes care of the project deliverables, tools, roles, and duration*/
+/******* CASE STUDY/PROJECT PAGE STYLING TABLET*******/
+/* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES TABLET */
 .info-grid {
   display:grid;
   grid-column-gap: 4rem;
@@ -771,9 +755,6 @@ and (orientation : landscape) {
   grid-row: 1 / 3;
 }
 
-/* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES TABLET*/
-
-
 
 /* HR STYLING FOR TABLET */
 hr {
@@ -781,44 +762,45 @@ hr {
   }
 
 
-/* PROBLEM + SOLUTION */
+/******* PROBLEM + SOLUTION *******/
 .sol-img {
-    margin-top: 10rem;
-    height: auto;
-    width: 88%;
+  height: auto;
+  margin-top: 10rem;
+  width: 88%;
 }
 
 .section-wrap {
-    padding-bottom: 8rem;
-    padding-top: 6rem;
+  padding-bottom: 8rem;
+  padding-top: 6rem;
 }
 
 
-/* For sections that do not need a bottom-border TABLET*/
+/* For sections that do not need a bottom-border TABLET */
 .section-wrap-none {
-    padding-bottom: 8rem;
-    padding-top: 6rem;
-  }
+  padding-bottom: 8rem;
+  padding-top: 6rem;
+}
 
-/* For sections that do not need a bottom-border or padding. TABLET*/
+/* For sections that do not need a bottom-border or padding TABLET */
 .section-wrap-nobottom {
-    padding-top: 6rem;
-  }
+  padding-top: 6rem;
+}
 
 
-/* USER SURVEY GRAPH SECTIION */
+/******* USER SURVEY TABLET *******/
 .fig-section-graph {
-    margin: auto;
-    margin-bottom: 8rem;
-    margin-top: 6rem;
-    width:35rem;
-  }
+  margin: auto;
+  margin-bottom: 8rem;
+  margin-top: 6rem;
+  width:35rem;
+}
 
 .fig-section-graph figure:last-child {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
+}
 
-/* PERSONAS TABLET*/
+
+/******* PERSONAS TABLET *******/
 .persona-1, .persona-2 {
   display: flex;
   justify-content: space-around;
@@ -835,7 +817,8 @@ hr {
 }
 
 
-/* SKETCHES + WIREFRAMES */
+
+/******* SKETCHES + WIREFRAMES TABLET *******/
 .sketches-mobile img, .sketches-desktop img {
   width: 100%;
 }
@@ -844,29 +827,32 @@ hr {
   margin-top: 6rem;
 }
 
-/* BRAND + IDENTITY */
+
+/******* BRAND + IDENTITY *******/
 .fig-section {
   padding-top: 0;
 }
 
 .fig-section-brand-brain, .fig-section-brand {
-    margin-bottom: 8rem;
-    margin-top: 6rem;
-  }
+  margin-bottom: 8rem;
+  margin-top: 6rem;
+}
 
-/* CACHE WORD STYLING FOR BRAND IDENTITY */
+
+/* CACHE WORD STYLING FOR BRAND IDENTITY TABLET*/
 .cache-meaning h5 {
     width: 66rem;
-  }
+}
 
 /* images that do not require a drop-shadow and additional space */
 .fig-section img {
-    margin-bottom: 8rem;
-    margin-top: 6rem;
-    width: 100%;
-  }
+  margin-bottom: 8rem;
+  margin-top: 6rem;
+  width: 100%;
+}
 
-/* FONTS */
+
+/******* FONTS TABLET *******/
 .fonts-desktop  {
   display: block;
 }
@@ -875,7 +861,8 @@ hr {
   width: 100%;
 }
 
-/* HIFI MOCKUPS */
+
+/******* HIFI MOCKUPS TABLET *******/
 .mockups-mobile-fail img{
   margin-bottom: 8rem;
   width: 100%;
@@ -887,15 +874,15 @@ hr {
 }
 
 
-/*AB TEST*/
+/******* A/B TEST TABLET *******/
 .test-box {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
   overflow-x: visible;
+  padding-top:8rem;
   transform: translateX(-5.5%);
   width: 73rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding-top:8rem;
 }
 
 .test-box img {
@@ -903,45 +890,44 @@ hr {
 }
 
 
-/* FINAL MOCKUPS */
-
+/******* FINAL MOCKUPS TABLET *******/
 .fig-section-final figure:last-child {
-    margin-bottom: 6rem;
-  }
+  margin-bottom: 6rem;
+}
 
 .fig-section-end img{
-    padding-top: 6rem;
-    width: 100%;
-  }
+  padding-top: 6rem;
+  width: 100%;
+}
 
 .section-wrap-nobottom h6 {
   padding-top: 6rem;
 }
 
-/* FINAL MOBILE on desktop*/
 .fig-section-final2 {
   width: 65.4rem;
   margin: auto;
 }
-
 }
 
-/*TABLET LANDSCAPE */
+/******* TABLET LANDSCAPE *******/
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 
-.intro2 {
-      margin-top: 7rem;
-    }
-
 .arrow {
-      bottom: -10rem;
-    }
+  bottom: -10rem;
 }
 
-/* FOR DESKTOP */
+.intro2 {
+  margin-top: 7rem;
+}
+}
+
+
+
+/******* DESKTOP *******/
 @media screen and (min-width: 1199px) {
 .container, nav ul {
   width: 107rem;
@@ -955,20 +941,21 @@ hr {
   height: 34rem;
 }
 
+/******* HOME PAGE DESKTOP *******/
 .priscillank {
-    height: 42.2rem;
-    padding-left: 10rem;
-    padding-top: 8.5rem;
+  height: 42.2rem;
+  padding-left: 10rem;
+  padding-top: 8.5rem;
 }
 
 .intro2 {
-  width: 50.9rem;
   margin-top:10rem;
+  width: 50.9rem;
 }
 
 .arrow {
   bottom: -15rem;
-  }
+}
 
 .title {
   color: white;
@@ -980,8 +967,8 @@ hr {
   width: 100%;
 }
 
-/* Project thumbnail image size changes for desktop */
 
+/* Project thumbnail image size changes for DESKTOP */
 .content-image-tablet {
   display:none;
 }
@@ -990,7 +977,7 @@ hr {
   display:block;
 }
 
-/* desktop project overlay hover */
+/******* HOME PAGE PROJECT THUMBNAIL DESKTOP *******/
 .content-thumbnail .content-overlay {
   background: rgba(255,255,255, 0.9);
   position: absolute;
@@ -1037,7 +1024,6 @@ hr {
   top: 50%;
 }
 
-
 .fadeIn-bottom {
   top: 80%;
 }
@@ -1045,7 +1031,7 @@ hr {
 
 
 
-/* ABOUT ME PAGE */
+/******* ABOUT ME DESKTOP *******/
 .about-image-desktop {
   display: block;
 }
@@ -1075,9 +1061,9 @@ hr {
   margin-bottom: 0;
 }
 
-/* CASE STUDIES STYLING FOR DESKTOP */
-/* THIS IS CSS STYLING FOR CASE STUDIES*/
 
+
+/******* CASE STUDIES STYLING DESKTOP *******/
 .project-hero {
   padding-bottom:3rem;
 }
@@ -1096,7 +1082,7 @@ hr {
   padding-top: 6rem;
 }
 
-/* For sections that do not need a bottom-border or padding.*/
+/* For sections that do not need a bottom-border or padding */
 .section-wrap-nobottom {
   padding-top: 6rem;
 }
@@ -1104,8 +1090,7 @@ hr {
 
 
 
-/* Project Information header DESTOP */
-/* Takes care of the project deliverables, tools, roles, and duration*/
+/* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES DESKTOP */
 .info-grid {
   grid-column-gap: 9rem;
   grid-template-columns: 12rem 16rem 12rem 16rem;
@@ -1116,8 +1101,9 @@ hr {
   padding-top: 6rem;
 }
 
-/**** PROBLEM + SOLUTION *****/
 
+
+/******* PROBLEM + SOLUTION DESKTOP *******/
 .project-grid-b {
   align-items: start;
   display:grid;
@@ -1143,12 +1129,16 @@ hr {
     margin-top: 6rem;
 }
 
-/* USER SURVEY*/
+
+
+/******* USER SURVEY DESKTOP *******/
 .fig-section-graph {
   margin: 0;
 }
 
-/* COMPETITIVE ANALYSIS */
+
+
+/******* COMPETITIVE ANALYSIS DESKTOP *******/
 .competitors-img-wrap  {
   flex-direction: column;
   margin-left: 8.5rem;
@@ -1163,8 +1153,8 @@ hr {
 }
 
 
-/* PERSONA */
-/** container made to accomodate the personas**/
+/******* PERSONA DESKTOP *******/
+/** container made to accomodate the personas **/
 .container-large {
   width: 122rem;
 }
@@ -1183,8 +1173,9 @@ hr {
   margin-bottom: 0rem;
 }
 
-/* LOFI SKETCHES + WIREFRAMES */
 
+
+/******* LOFI SKETCHES + WIREFRAMES DESKTOP *******/
 .sketches-desktop {
   align-items: start;
   display: grid;
@@ -1201,7 +1192,7 @@ hr {
  margin-top:0;
 }
 
-/*sketches for wireframes that includes additional screens for desktop viewing */
+/* sketches for wireframes that includes additional screens for desktop viewing */
 .sketches-mobile img, .sketches-desktop img {
   height: 19.4rem;
   width: 31.4rem;
@@ -1219,34 +1210,36 @@ hr {
 }
 
 
-/*BRAND IDENTITY*/
 
+/******* BRAND IDENTITY DESKTOP *******/
 .fig-section-brand-brain img {
-    width: 60rem;
-  }
+  width: 60rem;
+}
 
 .fig-section-brand-brain {
-    margin-bottom: 10rem;
-    margin-top: 6rem;
-    overflow-x: visible;
-    transform: translateX(-7%);
-  }
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+  overflow-x: visible;
+  transform: translateX(-7%);
+}
 
 .fig-brain1 {
   margin-right: 2rem;
 }
 
 .fig-section-brand {
-  margin-top: 6.8rem;
   margin-bottom: 11.5rem;
+  margin-top: 6.8rem;
 }
 
 .cache-meaning {
   padding-left: 18.5%;
 }
 
-/* COLORS */
-/* I grouped the things that need too be hidden*/
+
+
+/******* COLORS DESKTOP *******/
+/* I grouped the things that need too be hidden */
 .mockups-mobile-fail, .mockups {
   display: none;
 }
@@ -1255,14 +1248,14 @@ hr {
   margin-bottom: 6rem;
 }
 
-/*TYPOGRAPHY*/
 
+/* FONTS DESKTOP */
 .fonts-desktop {
   padding-left: 5%;
 }
 
-/* MOCKUPS */
 
+/******* MOCKUPS DESKTOP *******/
 .mockups-desktop-fail, .mockups-desktop {
   display:block;
 }
@@ -1288,7 +1281,8 @@ hr {
   transform: translateX(-6.5%);
 }
 
-/* AB TESTING */
+
+/******* A/B TESTING DESKTOP *******/
 .test-box {
   transform: translateX(-6.5%);
   width: 122.6rem;
@@ -1300,29 +1294,29 @@ hr {
   width:58rem;
 }
 
-/*FINAL*/
 
+/******* FINAL DESKTOP *******/
 .fig-section-final {
-  overflow-x: visible;
-  transform: translateX(-6.5%);
   display:grid;
   grid-column-gap: 2.5rem;
   grid-row-gap: 2.5rem;
-  width:122.6rem;
   grid-template-columns: 39.2rem 39.2rem 39.2rem;
   margin-top: 6rem;
+  overflow-x: visible;
+  transform: translateX(-6.5%);
+  width:122.6rem;
 }
 
 .fig-section-final figure {
-  width:39.2rem;
   height: 24.6rem;
   margin:0;
+  width:39.2rem;
 }
 
-/* FINAL MOBILE on desktop*/
+
 .fig-section-final2 {
-  width: 65.4rem;
   margin: auto;
+  width: 65.4rem;
 }
 
 .fig-section-end img{
@@ -1335,7 +1329,7 @@ hr {
 
 
 
-
+/******* FOOTER DESKTOP *******/
 footer {
   background-color: #C66D44;
   color: white;
