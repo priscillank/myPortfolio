@@ -15,6 +15,7 @@ height: 100vh; /* Fallback for browsers that do not support Custom Properties */
 height: calc(var(--vh, 1vh) * 100);
 }
 
+
 p {
   font-family: "Open Sans";
   font-size: 1.6rem;
@@ -150,7 +151,7 @@ figcaption {
 /** BOUNCING ARROW **/
 .arrow
 { position: relative;
-  bottom: -20rem;
+  bottom: -8rem;
   left: 50%;
   margin-left:-20px;
   width: 40px;
@@ -207,7 +208,7 @@ figcaption {
 }
 
 .intro {
-  margin-top: 8rem;
+  margin-top: 6rem;
   text-align: center;
 }
 
@@ -603,7 +604,36 @@ hr {
   display:none;
 }
 
-/* LANDSCAPE MOBILE*/
+/*IPHONE 6,7,8 LANDSCAPE*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+.header-home {
+    height:auto;
+  }
+}
+
+/*IPHONE X PORTRAIT*/
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+.intro {
+  margin-top: 8rem;
+}
+
+.arrow {
+  bottom: -15rem;
+}
+
+}
+
+/*IPHONE X LANDSCAPE*/
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px)
@@ -611,12 +641,12 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) {
 
 .header-home {
-  height:auto;
+    height:auto;
   }
 
 .intro2 {
-    margin-bottom: 15rem;
-  }
+  margin-bottom: 10rem;
+}
 }
 
 /* FOR TABLET */
@@ -635,7 +665,7 @@ and (orientation : landscape) {
     display: block;
     width: 50.9rem;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 
 .intro {
@@ -654,7 +684,7 @@ and (orientation : landscape) {
     }
 
 .arrow {
-  bottom: -35rem;
+  bottom: -25rem;
   }
 
 /* THIS REFERS TO THE THUMBNAILS FOR CASE STUDIES IN THE HOME PAGE ON TABLET */
@@ -890,7 +920,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 
 .intro2 {
-      margin-top: 8rem;
+      margin-top: 7rem;
     }
 
 .arrow {
@@ -924,7 +954,7 @@ hr {
 }
 
 .arrow {
-  bottom: -18rem;
+  bottom: -15rem;
   }
 
 .title {
