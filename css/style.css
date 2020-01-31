@@ -1046,6 +1046,11 @@ hr {
 
 
 /******* ABOUT ME DESKTOP *******/
+.aboutname-desktop {
+  width: 43.9rem;
+  line-height:3.2rem;
+}
+
 .about-image-desktop {
   display: block;
 }
