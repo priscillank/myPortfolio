@@ -109,7 +109,7 @@ nav ul li a {
   font-family: "Playfair Display";
   font-size: 1.8rem;
   font-variant: small-caps;
-  letter-spacing: 5%;
+  letter-spacing: .1rem;
   text-decoration: none;
 }
 
@@ -602,10 +602,22 @@ hr {
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .about-image-tablet, .content-image-hero  {
+.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .content-image-hero, .about-image-tablet  {
   display:none;
 }
 
+/******* GALAXY S5 because of about me tablet sizing *******/
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+.about-image-tablet {
+  display:none;
+}
+
+}
 
 /******* IPHONE 6,7,8 LANDSCAPE *******/
 @media only screen
@@ -615,7 +627,7 @@ and (orientation : landscape) {
 
 .header-home {
     height:auto;
-  }
+}
 }
 
 
@@ -709,7 +721,7 @@ and (orientation : landscape) {
     width: 40rem;
 }
 
-/******* ABOUT ME PAGE TABLET*******//
+/******* ABOUT ME PAGE TABLET*******/
 .about-image-tablet, .colors-desktop {
   display: block;
 }
@@ -923,6 +935,8 @@ and (orientation : landscape) {
 .intro2 {
   margin-top: 7rem;
 }
+
+
 }
 
 
