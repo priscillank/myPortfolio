@@ -76,7 +76,7 @@ h6 {
   font-size: 2.4rem;
   font-variant: small-caps;
   font-weight: bold;
-  letter-spacing: .02rem;
+  letter-spacing: .1rem;
   line-height: 3.4rem;
 }
 
@@ -241,13 +241,21 @@ figcaption {
 .hero-container{
   background-color: #F0E6E2;
   margin: auto;
-  margin-top: 5rem;
   text-align: center;
 }
 
 .projects-container {
   padding-bottom: 3rem;
   padding-top: 10rem;
+}
+
+.case-study {
+  color: #2F3B3E;
+  border-bottom: 5px solid;
+  border-bottom-color: #F0E6E2;
+  margin-bottom: 5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 
