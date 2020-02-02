@@ -148,7 +148,6 @@ figcaption {
   font-size: 1.4rem;
   line-height: 2.4rem;
   padding-top: 1rem;
-  text-align: center;
 }
 
 
@@ -465,7 +464,16 @@ hr {
   width: 33.3rem;
 }
 
-.test-box figure, .fig-section-graph figure:last-child {
+.survey1 {
+  text-align: left;
+  margin-bottom:8rem;
+  margin-top:6rem;
+  text-align: left;
+}
+
+
+
+.test-box figure, .fig-section-graph figure:last-child, .survey1:last-child {
     margin-bottom: 0;
 }
 
@@ -486,23 +494,42 @@ hr {
 }
 
 /******* COMPETITIVE ANALYSIS *******/
-.competitors-img-wrap img {
-  margin-bottom: 3.2rem;
-  height:9.8rem;
-  width: 9.63rem;
+.comp-1 figure {
+  text-align: center;
+  margin: 0;
 }
 
-.competitors-img-wrap {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 3.2rem;
-  padding-top:1.8rem;
-  text-align: center;
+.container figcaption p {
+  margin-bottom: .1rem;
+}
+
+.container figcaption p {
+  margin-bottom: .1rem;
+}
+
+.comp-1 h6 {
+  padding-top: 0;
+}
+
+.comp-1 figcaption {
+  text-align: left;
+  color: #2F3B3E;
+}
+
+.comp-1 {
+  margin-bottom: 5rem;
+}
+.comp-1:last-child {
+  margin-bottom: 0;
+}
+
+.comp-1 img {
+  padding-top: 1rem;
 }
 
 
 /******* PERSONAS *******/
-.persona-1 h4, .persona-2 h4 {
+.persona-1 h4, .persona-2 h4, .comp-1 h6 {
   color: #C66D44;
 }
 
@@ -528,7 +555,20 @@ hr {
   margin-bottom:8rem;
 }
 
+/******* USER STORIES *******/
 
+.map img {
+  width:100%;
+}
+
+.map figcaption {
+  color: #2F3B3E;
+  margin-top: 1rem;
+}
+
+.map {
+  padding-top: 3rem;
+}
 /******* SKETCHES + WIREFRAMES *******/
 .sketches-mobile img, .sketches-desktop img {
   box-shadow: 0px 4px 4px rgba(47, 59, 62, 0.25);
@@ -819,6 +859,11 @@ hr {
   margin-bottom: 0;
 }
 
+/********* COMPETITIVE ANALYSIS TABLET ***********/
+.comp-wrap {
+  width: 38rem;
+  margin:auto;
+}
 
 /******* PERSONAS TABLET *******/
 .persona-1, .persona-2 {
@@ -1119,8 +1164,8 @@ hr {
 
 /* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES DESKTOP */
 .info-grid {
-  grid-column-gap: 9rem;
-  grid-template-columns: 12rem 16rem 12rem 16rem;
+  grid-column-gap: 5rem;
+  grid-template-columns: 10rem 18rem 12rem 16rem;
 }
 
 .container.info-grid {
@@ -1160,25 +1205,43 @@ hr {
 
 /******* USER SURVEY DESKTOP *******/
 .fig-section-graph {
-  margin: 0;
+  padding-bottom: 3rem;
+  padding-top: 6rem;
+  margin: auto;
+  display:flex;
+  justify-content: space-between;
 }
 
+.survey1 {
+  width:32rem;
+  text-align: center;
+}
 
 
 /******* COMPETITIVE ANALYSIS DESKTOP *******/
-.competitors-img-wrap  {
-  flex-direction: column;
-  margin-left: 8.5rem;
-  margin-top: 6.8rem;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-.competitors-img-wrap img {
+.comp-1 img {
   height:15.5rem;
   width: 15.5rem;
 }
 
+.comp-wrap {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.comp-1 {
+  margin-bottom:0;
+}
+
+.comp-1:first-child {
+  margin-top: 0rem;
+}
+
+.comp-1:last-child {
+  margin-bottom: 0;
+}
 
 /******* PERSONA DESKTOP *******/
 /** container made to accomodate the personas **/
