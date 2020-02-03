@@ -1335,7 +1335,7 @@ hr {
 }
 
 .colors-desktop {
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
 }
 
 
@@ -1350,26 +1350,15 @@ hr {
   display:block;
 }
 
-.mockups-desktop-fail img {
-  width:107rem;
+.mockups-desktop-fail img, .mockups-desktop img {
+  width:100%;
 }
 
 /* images that do not require a drop-shadow and additional space */
 .fig-section img, .mockups-desktop-fail img {
   margin-top: 5.8rem;
-  margin-bottom: 10.5rem;
 }
 
-.mockups-desktop img {
-  width: 122.6rem;
-}
-
-.mockups-desktop {
-  margin-top: 6rem;
-  width: 122.6rem;
-  overflow-x: visible;
-  transform: translateX(-6.5%);
-}
 
 
 /******* A/B TESTING DESKTOP *******/
