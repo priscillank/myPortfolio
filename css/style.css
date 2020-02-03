@@ -929,7 +929,6 @@ hr {
 
 /******* HIFI MOCKUPS TABLET *******/
 .mockups-mobile-fail img{
-  margin-bottom: 8rem;
   width: 100%;
 }
 
@@ -1365,9 +1364,10 @@ hr {
 .test-box {
   transform: translateX(-6.5%);
   width: 122.6rem;
-  padding-top:8rem;
+  padding-top:12rem;
   padding-bottom: 6rem;
 }
+
 
 .test-box img {
   width:58rem;
