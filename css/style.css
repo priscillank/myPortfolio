@@ -652,10 +652,10 @@ hr {
 }
 
 /******* GALAXY S5 because of about me tablet sizing *******/
-@media only screen
-  and (min-device-width: 360px)
-  and (max-device-width: 640px)
-  and (-webkit-min-device-pixel-ratio: 3)
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
 
 .about-image-tablet {
@@ -666,9 +666,10 @@ hr {
 
 /******* IPHONE 6,7,8 LANDSCAPE *******/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : landscape) {
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
 
 .header-home {
     height:auto;
@@ -678,10 +679,10 @@ and (orientation : landscape) {
 
 /******* IPHONE X PORTRAIT *******/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : portrait) {
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
 
 .arrow {
     bottom: -15rem;
@@ -694,10 +695,10 @@ and (orientation : portrait) {
 
 /******* IPHONE X LANDSCAPE *******/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape) {
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
 
 .header-home {
     height:auto;
@@ -973,9 +974,10 @@ hr {
 
 /******* TABLET LANDSCAPE *******/
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
 
 .arrow {
   bottom: -10rem;
@@ -984,14 +986,13 @@ and (orientation : landscape) {
 .intro2 {
   margin-top: 7rem;
 }
-
-
 }
 
 
 
 /******* DESKTOP *******/
 @media screen and (min-width: 1199px) {
+
 .container, nav ul {
   width: 107rem;
 }
