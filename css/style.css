@@ -293,7 +293,7 @@ figcaption {
   margin: auto;
   padding-bottom: 4rem;
   padding-top: 3rem;
-  width: 23rem;
+  width: 24rem;
 }
 
 .content-text {
@@ -1211,10 +1211,8 @@ hr {
 }
 
 .survey1 {
-  width:32rem;
-  text-align: center;
+  width:35rem;
 }
-
 
 /******* COMPETITIVE ANALYSIS DESKTOP *******/
 .comp-1 img {
