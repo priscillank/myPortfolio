@@ -36,56 +36,28 @@
     </ul>
   </div>
 </nav>
-
-
-<header class="header-home">
-  <div class="bg-color-pink">
-    <div class="hero-container container">
-
-<!--HERO IMAGE-->
-      <div class="hero-image">
-        <img src="images/home/hero-image.png" alt="Priscilla Nishiyama Kohlman / UX Design" class="priscillank">
-      </div>
-    </div>
-  </div>
-
-
-<!--INTRODUCTION-->
-<div class="intro container">
-  <h5>Why, hello there. My name is</h5> <span class="myName">Priscilla Nishiyama Kohlman</span>
-  <h5>and I’m a Product Designer based in</h5>
-  <h5>Portland, OR.</h5>
-</div>
-
-<div class="intro2 container">
-  <h5>Why, hello there. My name is <span class="myName">Priscilla Nishiyama Kohlman</span> and I’m a Product Designer based in Portland, OR.</h5>
-</div>
-
-  <div class="arrow bounce">
-    <img src="images/home/down-arrow.svg" alt="down arrow">
-  </div>
-</header>
-
-
-<!--MAIN-->
 <main>
-  <a id="work">
-    <div class="container projects-container">
-      <h3 class="case-study">PROJECTS</h3>
-      <a href="https://priscillank.github.io/myPortfolio/project.html">
-        <div class="content-thumbnail">
-          <div class="content-overlay"></div>
-            <img class="content-image-mobile" src="images/home/projectImageMobile.png" alt="Cache Cow Project">
-            <img class="content-image-tablet" src="images/home/projectImageTablet.png" alt="Cache Cow Project">
-            <img class="content-image" src="images/home/projectTile1.png" alt="Cache Cow Project">
-          <div class="content-details fadeIn-bottom">
-            <h3 class="content-title">CacheCow</h3>
-            <p class="content-text">A cloud storage product that provides a secure workspace to store, share, and access files.</p>
-          </div>
-        </div>
-      </a>
-    </div>
-  </a>
+  <div class="container contact-me">
+    <h2>Interested in working together?</h2>
+
+    <h5>Shoot me an email!</h5>
+    <div class="contactform">
+    <form
+      action="https://formspree.io/xdozgkav"
+      method="POST"
+    >
+
+        <input type="text" name="name" placeholder="Name"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+<br>
+        <textarea rows="10" name="message" placeholder="Message :)"></textarea>
+
+      <!-- your other form fields go here -->
+      <br>
+      <button class="formbutton" type="submit">Send Message</button>
+    </form>
+</div>
+</div>
 </main>
 
 <!--FOOTER-->

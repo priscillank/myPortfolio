@@ -176,6 +176,10 @@ figcaption {
   }
 }
 
+a {
+  color: inherit;
+}
+
 
 /*** BACK TO TOP BUTTON ***/
 #myBtn {
@@ -643,6 +647,105 @@ hr {
   width: 100%;
 }
 
+.contact-me {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+.contact-me h2 {
+  color: #E8A153;
+  width:90%;
+  margin: auto;
+  margin-bottom: 1.8rem;
+}
+
+.contact-me h5 {
+  color: #425458;
+  margin: auto;
+  margin-bottom: 3.2rem;
+}
+
+
+.contactform {
+  margin-bottom: 10rem;
+}
+
+
+input {
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #2F3B3E;
+}
+
+textarea {
+  color: #2F3B3E;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formbutton {
+  border-radius: 4px;
+  border-color: #425458;
+  border-width: 2px;
+  width:100%;
+  margin-top: 18px;
+  font-family: "Playfair Display";
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-top:12px;
+  padding-bottom: 12px;
+  background-color: white;
+  color: #425458;
+  font-weight: bold;
+}
+
+.resumelink {
+  border-radius: 4px;
+  border-color: #425458;
+  border-width: 2px;
+  width:100%;
+  margin-top: 18px;
+  font-family: "Playfair Display";
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-top:15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: #425458;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.formbutton:hover {
+  background-color: #425458;
+  color: white;
+}
+
+.resumelink:hover{
+  background-color: white ;
+  color: #425458;
+}
+
+.contact-form{
+  margin-bottom: 5rem;
+}
+
+
+
 
 /* FONTS + THINGS THAT NEED TO BE HIDDEN FOR MOBILE DEVICES*/
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
@@ -971,6 +1074,10 @@ hr {
   width: 65.4rem;
   margin: auto;
 }
+.contact-me {
+  width:60rem;
+  margin-bottom: 10rem;
+}
 }
 
 /******* TABLET LANDSCAPE *******/
@@ -987,6 +1094,13 @@ hr {
 .intro2 {
   margin-top: 7rem;
 }
+
+.contact-me {
+  width:60rem;
+  margin-bottom: 10rem;
+}
+
+
 }
 
 
@@ -996,6 +1110,11 @@ hr {
 
 .container, nav ul {
   width: 107rem;
+}
+
+.contact-me {
+  width:75rem;
+  margin-bottom: 15rem;
 }
 
 main {
