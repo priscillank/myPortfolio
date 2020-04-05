@@ -145,7 +145,7 @@ figure {
 figcaption {
   font-family: "Open Sans";
   font-size: 1.4rem;
-  line-height: 2.4rem;
+  line-height: 2.9rem;
   padding-top: 1rem;
 }
 
@@ -378,6 +378,48 @@ a {
   text-decoration: none;
 }
 
+
+/*****TIPPO*****/
+.sol-mobile{
+  width:100%;
+}
+
+.tippo-wrap {
+text-align: center;
+padding-bottom: 5rem;
+padding-top: 5rem;
+}
+
+.tippo-wrap-final {
+text-align: center;
+padding-bottom: 6rem;
+padding-top: 5rem;
+}
+
+
+.surveyt-mobile {
+  padding-bottom: 5rem;
+}
+
+.surveyt-mobile-no {
+  padding-bottom: 0rem;
+}
+
+mark {
+  background-color: #00FFA3;
+  color: #142135;
+  font-weight:bold;
+}
+
+.tip-persona {
+  width: 33rem;
+}
+
+.tippo-space-h6 {
+  padding-bottom: 0rem;
+}
+
+
 /******* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES *******/
 .info-grid {
   display:grid;
@@ -408,15 +450,39 @@ a {
   width: 100vw;
 }
 
+.bg-color-blue {
+  background-color: #142135;
+  width: 100vw;
+}
+
 /* HR STYLING FOR MOBILE */
 hr {
   background-image: url("https://priscillank.github.io/myPortfolio/images/project/userflow-divider.png");
   background-size: cover;
   border: 0;
   height: 25rem;
+  opacity: 0.7;
 }
 
+.tp-story {
+  background-image: url("/images/tippo/tip-hr-stories.png");
+  background-size: cover;
+  border: 0;
+  height: 25rem;
+  opacity: 0.7;
+}
 
+.tp-brand {
+  background-image: url("/images/tippo/brandhr.png");
+  background-size: cover;
+  border: 0;
+  height: 25rem;
+  opacity: 0.7;
+}
+
+.endgif img {
+  width:24.4rem;
+}
 /******* PROBLEM + SOLUTION *******/
 .project-main h3 {
   color: #2F3B3E;
@@ -430,6 +496,35 @@ hr {
 .cow-wrap {
   text-align: center;
 }
+
+.compt-wrap {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.prob-img {
+  padding-bottom: 3rem;
+}
+
+.tip-comp {
+  width: 33rem;
+}
+
+
+/**PERSONA TIPPO**/
+
+.persona-3 img {
+  padding-bottom: 3.2rem;
+}
+
+.persona-3 {
+  padding-bottom: 1.8rem;
+}
+
+.persona-3:last-child {
+  padding-bottom: 0;
+}
+
 
 .sol-img {
   height:auto;
@@ -473,9 +568,18 @@ hr {
   text-align: left;
 }
 
+/***TIPPO SURVEY***/
+.fig-section-tip, .fig-section-flow {
+  padding-top: 3.2rem;
+}
+
+.fig-section-tip img, .fig-section-flow img {
+  width:100%;
+}
 
 
-.test-box figure, .fig-section-graph figure:last-child, .survey1:last-child {
+
+.test-box figure, .fig-section-graph figure:last-child, .survey1:last-child, .test-box2 figure {
     margin-bottom: 0;
 }
 
@@ -486,6 +590,7 @@ hr {
 .fig-section {
   padding-top: 1.8rem;
 }
+
 
 
 /* ADDITIONAL STYLING FOR SIENNA COLORED FONTS */
@@ -531,11 +636,11 @@ hr {
 
 
 /******* PERSONAS *******/
-.persona-1 h4, .persona-2 h4, .comp-1 h6 {
+.persona-1 h4, .persona-2 h4, .persona-3 h4, .comp-1 h6 {
   color: #C66D44;
 }
 
-.persona-1 figcaption, .persona-2 figcaption {
+.persona-1 figcaption, .persona-2 figcaption, .persona-3 figcaption {
   color: #2F3B3E;
   text-align: left;
 }
@@ -588,6 +693,38 @@ hr {
 }
 
 
+/**TIPPO WIREFRAMES**/
+.gif img {
+  width:100%;
+  padding-top: 1.8rem;
+}
+
+.gif {
+  padding-bottom: 4rem;
+}
+
+/*TIPPO BRANDING*/
+.tippo-logo img {
+  width: 20rem;
+}
+
+.tippo-logo {
+  text-align: center;
+}
+
+.fonts-mobile-tip, .fonts-desktop-tip {
+  text-align: center;
+}
+
+.fonts-mobile-tip img {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width:50%;
+}
+
+
+
+
 /******* BRAND + IDENTITY *******/
 /* brainstorming images */
 .fig-section-brand img {
@@ -610,13 +747,13 @@ hr {
 }
 
 /******* A/B TESTING *******/
-.test-box {
+.test-box, .test-box2 {
   padding-top: 3.2rem;
   padding-bottom: 1.8rem;
 }
 
 /******* FINAL MOCKUPS *******/
-.test-box img, .fig-section-final2 img{
+.test-box img, .fig-section-final2 img, .test-box2 img {
   margin-bottom: 0rem;
   width: 100%;
 }
@@ -751,10 +888,9 @@ textarea {
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.mockups-desktop, .fonts-desktop, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .content-image-hero, .about-image-tablet  {
+.mockups-desktop, .fonts-desktop, .fonts-desktop-tip, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .content-image-hero, .about-image-tablet, .solution, .surveyt  {
   display:none;
 }
-
 /******* GALAXY S5 because of about me tablet sizing *******/
 @media screen
   and (min-width: 320px)
@@ -811,6 +947,10 @@ textarea {
 .intro2 {
   margin-bottom: 10rem;
 }
+
+
+
+
 }
 
 
@@ -841,6 +981,12 @@ textarea {
 .solution-wrap {
   text-align: center;
 }
+
+/*TIPPO*/
+.sol-mobile {
+  width:80%;
+}
+
 
 /* PADDING TO CENTER HOME HERO IMAGE TABLET */
 .priscillank {
@@ -876,7 +1022,7 @@ textarea {
   display: block;
 }
 
-.about-image-mobile, .about-image-desktop, .colors, .fonts-mobile   {
+.about-image-mobile, .about-image-desktop, .colors, .fonts-mobile, .fonts-mobile-tip  {
   display: none;
 }
 
@@ -919,7 +1065,7 @@ textarea {
 
 
 /* HR STYLING FOR TABLET */
-hr {
+hr, .tp-story, .tp-brand {
     height:30rem;
   }
 
@@ -968,7 +1114,7 @@ hr {
 }
 
 /******* PERSONAS TABLET *******/
-.persona-1, .persona-2 {
+.persona-1, .persona-2, .persona-3{
   display: flex;
   justify-content: space-around;
   width:100%;
@@ -1000,6 +1146,10 @@ hr {
   padding-top: 0;
 }
 
+.fig-section-tip, .fig-section-flow {
+  padding-top: 0;
+}
+
 .fig-section-brand-brain, .fig-section-brand {
   margin-bottom: 8rem;
   margin-top: 6rem;
@@ -1019,8 +1169,10 @@ hr {
 }
 
 
+
+
 /******* FONTS TABLET *******/
-.fonts-desktop  {
+.fonts-desktop, .fonts-desktop-tip  {
   display: block;
 }
 
@@ -1055,6 +1207,22 @@ hr {
   width:36.2rem;
 }
 
+.test-box2 img  {
+  width: 35rem;
+}
+
+
+
+.test-box2 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: visible;
+  padding-top:4rem;
+  padding-bottom: 8rem;
+  transform: translateX(-5%);
+  width: 73rem;
+}
 
 /******* FINAL MOCKUPS TABLET *******/
 .fig-section-final figure:last-child {
@@ -1078,7 +1246,59 @@ hr {
   width:60rem;
   margin-bottom: 10rem;
 }
+/*TIPPO*/
+
+.fig-section-tip {
+  text-align: center;
+  width:80%;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  margin: auto;
 }
+
+.fig-section-tip img, .fig-section-flow img {
+  width:80%;
+  margin: auto;
+}
+
+.tipflow{
+  text-align: center;
+}
+
+
+.surveyt-mobile, .surveyt-mobile-no {
+  display:none;
+}
+
+.surveyt {
+  display:block;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.gif img {
+  width:30rem;
+  padding-top: 1.8rem;
+
+}
+
+.gif {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.tippo-space-h6 {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.fonts-desktop-tip img {
+  width:80%;
+}
+
+
+}
+
 
 /******* TABLET LANDSCAPE *******/
 @media only screen
@@ -1099,8 +1319,6 @@ hr {
   width:60rem;
   margin-bottom: 10rem;
 }
-
-
 }
 
 
@@ -1124,6 +1342,22 @@ main {
 hr {
   height: 34rem;
 }
+
+.tp-story, .tp-brand {
+  height: 60rem;
+}
+
+.fig-section-tip, .fig-section-flow, .fig-section-flow img  {
+  width:100%;
+}
+
+.fig-section-tip img {
+  margin-bottom: 8rem;
+  margin-top: 6rem;
+  width:100%;
+  text-align: left;
+}
+
 
 /******* HOME PAGE DESKTOP *******/
 .priscillank {
@@ -1310,12 +1544,83 @@ hr {
   padding-bottom: .8em;
 }
 
+
 .col1-project {
   align-self: center;
 }
 
 .sol-img {
     margin-top: 6rem;
+}
+
+.col2t-project {
+  align-self: start;
+  margin-top: 2.8rem;
+}
+
+/** TIPPO **/
+.solution {
+  display: block;
+  width:100%;
+}
+
+.tippo-wrap {
+text-align: center;
+width:89rem;
+padding-bottom: 3rem;
+padding-top: 10rem;
+}
+
+.tippo-wrap-final {
+text-align: center;
+width:89rem;
+padding-bottom: 6rem;
+padding-top: 4rem;
+}
+
+
+
+.sol-mobile, .surveyt-mobile, .surveyt-mobile-no {
+  display:none;
+}
+
+/*SURVEY TIPPO*/
+.surveyt{
+  display:block;
+}
+
+
+/*COMPETITIVE ANALYSIS TIPPO*/
+.compt-wrap {
+  text-align: left;
+  padding-top: 0;
+}
+
+.tip-comp {
+  width: 38rem;
+}
+
+/*PERSONA TIPPO*/
+.persona-3 {
+  width: 33rem;
+  padding-bottom: 0;
+}
+
+
+/* WIREFRAMES */
+.tippo-space-h6 {
+  margin-top: 6rem;
+  margin-bottom: 0rem;
+}
+
+.gif {
+  text-align: left;
+}
+
+.fonts-desktop-tip img {
+  width:80%;
+  padding-top:4rem;
+  padding-left: 5%;
 }
 
 
@@ -1368,6 +1673,8 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .persona-1, .persona-2 {
   width: 55.7rem;
@@ -1470,7 +1777,7 @@ hr {
 }
 
 /* images that do not require a drop-shadow and additional space */
-.fig-section img, .mockups-desktop-fail img {
+.fig-section img, .mockups-desktop-fail img, .fig-section-tip img {
   margin-top: 5.8rem;
 }
 
@@ -1484,10 +1791,23 @@ hr {
   padding-bottom: 6rem;
 }
 
+.test-box2 {
+  transform: translateX(0%);
+  width: 106.5rem;
+  padding-top:6rem;
+  padding-bottom: 10rem;
+}
 
 .test-box img {
   width:58rem;
 }
+
+
+
+.test-box2 img {
+  width: 47.9rem;
+}
+
 
 
 /******* FINAL DESKTOP *******/
