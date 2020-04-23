@@ -21,9 +21,9 @@ header {
 }
 
 p {
-  font-family: "Open Sans";
-  font-size: 1.6rem;
-  line-height: 2.8rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 b {
@@ -423,8 +423,7 @@ mark {
 /******* CASE STUDY ROLES, TOOLS, DURATIION, DELIVERABLES *******/
 .info-grid {
   display:grid;
-  padding-bottom: 3.2rem;
-  padding-top: 3.2rem;
+  padding-top: 6.4rem;
 }
 
 .item-a {
@@ -526,11 +525,7 @@ hr {
 }
 
 
-.sol-img {
-  height:auto;
-  width:100%;
-  margin-top: 3.2rem;
-}
+
 
 .section-wrap {
   border-bottom: 1px solid #F0E6E2;
@@ -569,11 +564,11 @@ hr {
 }
 
 /***TIPPO SURVEY***/
-.fig-section-tip, .fig-section-flow {
+.fig-section-tip, .fig-section-flow, .fig-section-colors {
   padding-top: 3.2rem;
 }
 
-.fig-section-tip img, .fig-section-flow img {
+.fig-section-tip img, .fig-section-flow img, .fig-section-colors img{
   width:100%;
 }
 
@@ -888,7 +883,7 @@ textarea {
 /* CONTENT IMAGES ARE THE CASE STUDY THUMBNAILS */
 /* Hide additional sketches for Mobile */
 
-.mockups-desktop, .fonts-desktop, .fonts-desktop-tip, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .content-image-hero, .about-image-tablet, .solution, .surveyt  {
+.mockups-desktop, .fonts-desktop, .fonts-desktop-tip, .mockups-desktop-fail, .about-image-desktop, .content-image, .content-image-tablet, .sketches-desktop, .colors-desktop, .content-image-hero, .about-image-tablet, .solution, .cowsol, .surveyt, .colorst  {
   display:none;
 }
 /******* GALAXY S5 because of about me tablet sizing *******/
@@ -978,10 +973,6 @@ textarea {
   display:none;
 }
 
-.solution-wrap {
-  text-align: center;
-}
-
 /*TIPPO*/
 .sol-mobile {
   width:80%;
@@ -1033,13 +1024,11 @@ textarea {
   display:grid;
   grid-column-gap: 4rem;
   grid-template-columns: 11rem 15rem 11rem 15rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
 }
 
-.container.info-grid {
-  justify-content: center;
-  padding-bottom: 6rem;
-  padding-top:6rem;
-}
+
 
 .info-grid p {
   margin-top: .8rem;
@@ -1071,11 +1060,6 @@ hr, .tp-story, .tp-brand {
 
 
 /******* PROBLEM + SOLUTION *******/
-.sol-img {
-  height: auto;
-  margin-top: 10rem;
-  width: 88%;
-}
 
 .section-wrap {
   padding-bottom: 8rem;
@@ -1146,7 +1130,7 @@ hr, .tp-story, .tp-brand {
   padding-top: 0;
 }
 
-.fig-section-tip, .fig-section-flow {
+.fig-section-tip, .fig-section-flow, .fig-section-colors {
   padding-top: 0;
 }
 
@@ -1253,12 +1237,10 @@ hr, .tp-story, .tp-brand {
   width:80%;
   margin-bottom: 4rem;
   margin-top: 3rem;
-  margin: auto;
 }
 
 .fig-section-tip img, .fig-section-flow img {
   width:80%;
-  margin: auto;
 }
 
 .tipflow{
@@ -1270,7 +1252,7 @@ hr, .tp-story, .tp-brand {
   display:none;
 }
 
-.surveyt {
+.surveyt, .colorst {
   display:block;
   padding-top: 3rem;
   padding-bottom: 4rem;
@@ -1347,8 +1329,8 @@ hr {
   height: 60rem;
 }
 
-.fig-section-tip, .fig-section-flow, .fig-section-flow img  {
-  width:100%;
+.fig-section-tip{
+  width:80%;
 }
 
 .fig-section-tip img {
@@ -1358,6 +1340,9 @@ hr {
   text-align: left;
 }
 
+.fig-section-flow, .fig-section-flow img  {
+  width:100%;
+}
 
 /******* HOME PAGE DESKTOP *******/
 .priscillank {
@@ -1519,10 +1504,6 @@ hr {
   grid-template-columns: 10rem 18rem 12rem 16rem;
 }
 
-.container.info-grid {
-  padding-bottom: 6rem;
-  padding-top: 6rem;
-}
 
 
 
@@ -1530,7 +1511,7 @@ hr {
 .project-grid-b {
   align-items: start;
   display:grid;
-  grid-template-columns: 49.4rem 57rem;
+  grid-template-columns: 42rem 65rem;
   justify-content: space-between;
   margin: auto;
   grid-row-gap: 6rem;
@@ -1549,9 +1530,13 @@ hr {
   align-self: center;
 }
 
-.sol-img {
-    margin-top: 6rem;
+.cowsol  {
+  display:block;
+  width: 122.6rem;
+  position: relative;
+  right:19%;
 }
+
 
 .col2t-project {
   align-self: start;
@@ -1585,10 +1570,9 @@ padding-top: 4rem;
 }
 
 /*SURVEY TIPPO*/
-.surveyt{
+.surveyt, .colorst{
   display:block;
 }
-
 
 /*COMPETITIVE ANALYSIS TIPPO*/
 .compt-wrap {
@@ -1777,11 +1761,13 @@ padding-top: 4rem;
 }
 
 /* images that do not require a drop-shadow and additional space */
-.fig-section img, .mockups-desktop-fail img, .fig-section-tip img {
+.fig-section img, .mockups-desktop-fail img, .fig-section-tip img, .fig-section-colors img {
   margin-top: 5.8rem;
 }
 
-
+.fig-section-colors img {
+  padding-bottom: 8rem;
+}
 
 /******* A/B TESTING DESKTOP *******/
 .test-box {
