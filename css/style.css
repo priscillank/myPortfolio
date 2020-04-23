@@ -143,9 +143,9 @@ figure {
 }
 
 figcaption {
-  font-family: "Open Sans";
-  font-size: 1.4rem;
-  line-height: 2.9rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.45rem;
+  line-height: 2.4rem;
   padding-top: 1rem;
 }
 
@@ -618,6 +618,7 @@ hr {
 
 .comp-1 {
   margin-bottom: 5rem;
+  width: 38rem;
 }
 .comp-1:last-child {
   margin-bottom: 0;
@@ -802,7 +803,7 @@ hr {
 
 
 input {
-  font-family: "Open Sans";
+  font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   width: 100%;
@@ -816,7 +817,7 @@ input {
 
 textarea {
   color: #2F3B3E;
-  font-family: "Open Sans";
+  font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   width: 100%;
